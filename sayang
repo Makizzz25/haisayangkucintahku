@@ -1,0 +1,105 @@
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Brenda</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #page1 {
+            background: url('https://github.com/Makizzz25/Graduation/blob/main/IMG_E0534.JPG?raw=true') no-repeat center center/cover;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #page2 {
+            background: url('https://github.com/Makizzz25/Graduation/blob/main/1746596780569.jpg?raw=true') no-repeat center center/cover;
+            width: 100vw;
+            min-height: 150vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            overflow-y: auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .box {
+            background: rgba(255, 255, 255, 0.4); 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 80%;
+            word-wrap: break-word;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: rgb(235, 133, 0);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: rgb(255, 187, 0);
+        }
+    </style>
+</head>
+<body>
+    <div id="page1">
+        <div class="box">
+            <h1>Happy GirlFriend day sayangggggggggg 🌹💍🤍💐🌷❤✨
+
+</h1>
+        </div>
+        <a href="#" class="button" onclick="nextPage()">Siniiiiii sayanggggggggg</a>
+    </div>
+    
+    <div id="page2">
+        <div class="box">
+            <h2>Happy Girlfriend sayang ku cintah ku sayang kuuuu🤍✨🌹💍
+
+            </h2>
+            <p> Halo sayang kuuu, sorry telat huhuhuhu, Happy GirlFriend day sayang ku cintah, Thank you for coming into my life, your loves fills my heart with endless happiness and joy, you're my everything, and i'am so lucky to have you in my life. i love you today, tomorrow and forever, and i wish all the best for youuu, huhuhuhuhu kangen mau ketemu lagi sama kau sayang, aaaaaaaa tunggu mok disanaaaaaaaa, huhuhuhu ku sayang ko babyyyy 🌹💍🤍💐🌷❤✨, see u on whatsapp
+
+
+            </p>
+        </div>
+        <div style="height: 80px;"></div>
+        <a href="https://wa.me/6282393486760" class="button">Ayok ngebucin? Ayok jalan jalan sama? siniii......🤍🤍🤍</a>
+    </div>
+    
+    <script>
+        function nextPage() {
+            document.getElementById('page1').style.display = 'none';
+            document.getElementById('page2').style.display = 'flex';
+        }
+    </script>
+</body>
+</html>
